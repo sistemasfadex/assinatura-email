@@ -1,0 +1,99 @@
+body{
+    font-family:Verdana, Helvetica, sans-serif;
+}
+#main_table{
+    font-family:Verdana, Helvetica, sans-serif;
+    position: relative;
+}
+#main_table_data_cell_1{
+    font-family:Verdana; 
+    border-right:2px solid #9cc10e; 
+    padding-right:15px; 
+    text-align: right; 
+    vertical-align:top;
+}
+#internal_table{
+    font-family:Verdana; 
+    margin-right:0; 
+    margin-left:auto;
+}
+#internal_table_data_cell_1{   
+    font-family:Verdana;
+    height:55px;
+    vertical-align:top;
+    text-align:right;
+}
+#person_name{
+    font-family:Verdana;
+    font-size:14pt;
+    font-weight:bold;
+    color:#444444;
+}
+#person_jobname{
+    font-family:Verdana;
+    font-size:10pt;
+    color:#444444;
+}
+#internal_table_data_cell_2{ 
+    font-family:Verdana; 
+    height:40px;
+    vertical-align:top; 
+    padding:0; 
+    text-align:right;
+}
+#person_phone{
+    font-family:Verdana;
+    font-size:10pt;
+    color:#444444;
+}
+#person_email{
+    font-size: 14px;
+    font-family: Tahoma, Verdana, sans-serif;
+    color: #535c60;
+    display: block;
+    text-decoration: none;
+}
+#internal_table_data_cell_3{
+    font-family:Verdana;
+    height:20px; vertical-align:middle;
+    text-align:right;
+}
+.social_icons{
+    padding: 14px 8px 14px 0;
+    display: inline-block;
+}
+#main_table_data_cell_2{
+    padding-left:15px;
+    font-size:1pt; 
+    vertical-align:top; 
+    font-family:Verdana;
+}
+#img__logo{
+    max-height:57px; 
+}
+#logo{
+    max-height:40px; 
+    width:auto; 
+    border:0;
+}
+#right_box{
+    height:40px; 
+    font-family:Verdana; 
+    vertical-align:top; 
+    padding:0;
+}
+.right_content{
+    font-family:Verdana;
+    font-size:10pt;
+    color:#444444;
+}
+#link_assignature{
+    color:#9cc10e; 
+    font-size:10pt; 
+    font-family:Verdana;
+}
+#link_container{
+    height:20px; 
+    font-family:Verdana; 
+    vertical-align:middle;
+}

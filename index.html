@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assinatura FADEX</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="table_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div id="background">
+        <main id="container__signature">
+            <header>
+                <div id="container__signature__generator">
+                    <div id="container__signature__generator__left">
+                        <img id="container__signature__generator__leftbackground"
+                            src="./assets/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg">
+                        <div id="container__signature__generator__leftcontent">
+                            <h1 id="container__signature__generator__leftcontent__title">Sejam Bem-vindo Colaborador!
+                            </h1>
+                            <p id="container__signature__generator__leftcontent__text">Vamos criar sua assinatura de
+                                e-mail?
+                            </p>
+                        </div>
+                    </div>
+                    <div id="container__signature__generator__rightcontent">
+                        <div id="container__signature__generator__rightcontent__header">
+                            <img id="container__signature__generator__rightcontent__logo"
+                                src="./assets/logo preto horizontal com fundo.png">
+                            <form id="container__signature__generator__rightcontent__form">
+                                <p class="content_form" id="name_form">NOME:</p>
+                                <input type="text" class="content_form_box" id="name_box"
+                                    placeholder="*digite aqui seu nome e sobrenome" />
+                                <p class="content_form" id="jobname_form">CARGO:</p>
+                                <input type="text" class="content_form_box" id="jobname_box"
+                                    placeholder="*digite aqui cargo" />
+                                <p class="content_form" id="email_form">E-MAIL:</p>
+                                <input type="email" class="content_form_box" id="email_box"
+                                    placeholder="*digite aqui seu e-mail institucional" />
+                            </form>
+                        </div>
+                        <div id="container__signature__generator__rightcontent__buttons">
+                            <button id="container__signature__generator__rightcontent__buttonsubmit" type="button"
+                                onclick="set_user_information()">GERAR ASSINATURA</button>
+                            <button id="container__signature__generator__rightcontent__buttonclean" type="button"
+                                onclick="delete_user_information()">LIMPAR</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="container__signature__viewer">
+                    <p id="container__signature__viewer__title">PRÉ-VIZUALIZAÇÃO DA SUA ASSINATURA:</p>
+                    <div id="table_box">
+                        <button id="table_box_button_copy" type="button">COPIAR</button>
+                        <table id="main_table" cellpadding="0" cellspacing="0">
+                            <tbody>
+                                <tr>
+                                    <td id="main_table_data_cell_1" valign="top">
+                                        <table id="internal_table" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td id="internal_table_data_cell_1" valign="top" valign="top"
+                                                        align="right">
+                                                        <span id="person_name">--Nome
+                                                            Colaborador--<span><br></span></span>
+                                                        <span id="person_jobname">--Cargo Colaborador--</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td id="internal_table_data_cell_2" valign="top" align="right">
+                                                        <span id="person_phone">Fone:
+                                                            (86)3237-1379<span><br></span></span>
+                                                        <a id="person_email" href="mailto:exemplo@fadex.org.br">E-mail:
+                                                            exemplo@fadex.org.br</a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td id="internal_table_data_cell_3" valign="middle" align="right">
+                                                        <div>
+                                                            <a class="social_icons"
+                                                                href="https://www.instagram.com/fundacaofadex/"
+                                                                target="_blank">
+                                                                <img
+                                                                    src="http://gerenciadorsiinf1.websiteseguro.com/site_admin/assets/uploads/110/editor_texto/images/it.png" />
+                                                            </a>
+                                                            <a class="social_icons"
+                                                                href="https://www.linkedin.com/company/fadex/"
+                                                                target="_blank">
+                                                                <img
+                                                                    src="http://gerenciadorsiinf1.websiteseguro.com/site_admin/assets/uploads/110/editor_texto/images/ln(1).png" />
+                                                            </a>
+                                                            <a class="social_icons"
+                                                                href="https://www.youtube.com/channel/UCV9ZLSICxz1VjLlUoLowudw"
+                                                                target="_blank">
+                                                                <img
+                                                                    src="http://gerenciadorsiinf1.websiteseguro.com/site_admin/assets/uploads/110/editor_texto/images/yt.png" />
+                                                            </a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                    <td id="main_table_data_cell_2" valign="top">
+                                        <table style="font-family:Verdana;" cellpadding="0" cellspacing="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td style="height:55px; font-family:Verdana; vertical-align:top;"
+                                                        valign="top">
+                                                        <a id="logo" href="http://www.fadex.org.br" target="_blank"
+                                                            border="0">
+                                                            <img id="img__logo"
+                                                                src="http://gerenciadorsiinf1.websiteseguro.com/site_admin/assets/uploads/110/editor_texto/images/logo%20registrada%20horizontal%20com%20fundo.png" />
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td id="right_box" valign="top">
+                                                        <span class="right_content">Espaço Universitário -
+                                                            Campus<span><br></span></span>
+                                                        <span class="right_content">Universitário Ministro
+                                                            Petrônio<span><br></span></span>
+                                                        <span class="right_content">Portella, Bairro Ininga.
+                                                            Teresina-PI</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td id="link_container" valign="middle">
+                                                        <a id="link_assignature" href="http://www.fadex.org.br"
+                                                            target="_blank">www.fadex.org.br</a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </header>
+            <footer id="container__signature__footer">
+                <h1 id="container__signature__footer__title">ORIENTAÇÕES PARA CONFIGURAR SUA ASSINATURA:</h1>
+                <ol id="container__signature__footer__steeps">
+                    <li>Preencha os campos com seu nome, cargo e e-mail institucional.</li>
+                    <li>Clique em "GERAR ASSINATURA"</li>
+                    <li>Caso a assinatura seja exibida como o esperado com os campos agora contendo seus dados
+                        informados,
+                        clique em "COPIAR".</li>
+                    <li>Volte para seu e-mail e depois clique em "Ver todas as configurações".</li>
+                    <li>Em seguida, vá na sessão Assinatura, que fica quase no final da página, lá embaixo. </li>
+                    <li>Dê um clique na caixa de texto da sua assinatura antiga, apague tudo e depois é só colar
+                        (Ctrl+V)
+                    </li>
+                    <li>Verifique se a assinatura está com padrão no campo "Padrões de Assinatura" logo abaixo.</li>
+                    <li>Antes de sair da página, clique no botão "Salvar Alterações" que fica no final da página, e
+                        pronto!
+                    </li>
+                    <li>Se ainda houver alguma dúvida após a realização de todos esses passos, favor entrar em contato com a Assessoria Técnica de Tecnologia da Informação</li>
+                </ol>
+            </footer>
+            <a id="copyright">©️ Copyright -  All Reserved - Assessoria Técnica de Tecnologia da Informação | FADEX</a>
+        </main>
+    </div>
+</body>
+
+</html>
